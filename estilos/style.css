@@ -9,7 +9,7 @@
 
 
 
-body {
+body, html {
     width: auto;
     height: 100vh;
     background: url(../imagens/gym.jpg) no-repeat;
