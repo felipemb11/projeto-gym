@@ -12,7 +12,8 @@
 body, html {
     width: auto;
     height: 100vh;
-    background: url(../imagens/gym.jpg) no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.822), rgba(10, 10, 10, 0.452)), url(../imagens/gym.jpg);
+    background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
     background-color: black;  
@@ -29,28 +30,33 @@ header > h1 {
     
 }
 
-header > nav {
+header > menu {
     text-align: left;
     font-variant: small-caps;
     font-size: large;      
 
 }
 
-header > nav > p {
+header > menu > p {
     display: inline-block;
     padding: 10px;
     
 }
 
-header > nav > p > a {
+header > menu > p > a {
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
 
-header > nav > p > a:hover {
+header > menu > p > a:hover {
     color: red;
     transition: ease 0.1s;
 }
+
+.icone {
+    padding: 10px;
+}
+
 
 .material-symbols-outlined {
     color: rgb(238, 255, 0);
