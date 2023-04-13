@@ -83,10 +83,9 @@ header > menu > ul > li > a:hover {
     font-size: 1.1em;
 }
 
-.icone:hover {
+.icone :hover {
     color: red;
     transition: ease 0.5s;
-    text-decoration: underline;
 
 }
 
